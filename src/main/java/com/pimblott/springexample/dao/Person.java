@@ -1,4 +1,7 @@
 package com.pimblott.springexample.dao;
 
-public class Person {
+
+public record Person(String firstName, String lastName) {
+
 }
+
